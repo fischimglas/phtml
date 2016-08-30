@@ -1,0 +1,27 @@
+{
+	"name" : "fischimglas/jb",
+	"description" : "swiss knife for php",
+	"version" : "0.0.1",
+	"license": "MIT",
+	"dist" : {
+		"url" : "https://github.com/fischimglas/jb.git",
+		"type" : "git"
+	},
+	"authors" : [
+		{
+			"name" : "Jvo A. Maurer",
+			"email" : "jvo.maurer@gmail.com",
+			"homepage": "http://codenoise.ch",
+			"role": "Developer"
+		}
+	],
+	"minimum-stability" : "dev",
+	"require" : {
+		"php" : ">=5.3.0"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"jb" : "src/"
+		}
+	}
+}
