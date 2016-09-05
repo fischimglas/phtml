@@ -106,7 +106,7 @@ class PhtmlElement
 	 *
 	 * @param string $new_class_value
 	 */
-	public function add_class($new_class_value)
+	public function addClass($new_class_value)
 	{
 		$res = array();
 		if(array_key_exists('class', $this->attributes)) {
