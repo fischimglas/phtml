@@ -297,7 +297,7 @@ class Phtml
 	 *
 	 * @return null
 	 */
-	private function getval($index, $data)
+	private static function getval($index, $data)
 	{
 		$res = null;
 		if(is_array($data) && array_key_exists($index, $data)) {
